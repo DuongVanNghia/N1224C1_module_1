@@ -12,6 +12,6 @@ public class TaxMoney {
         System.out.println("Don gia san pham la: ");
         int money = sc.nextInt();
         System.out.println("Tong tien cua san pham la: " + (quantity * money));
-        System.out.println("thue gia tri tang la: " + (quantity*money*0.1));
+        System.out.println("thue gia tri tang la: " + (quantity * money * 0.1));
     }
 }
