@@ -7,7 +7,7 @@ public class CalAge {
         Scanner sc = new Scanner(System.in);
         System.out.print("nam sinh: ");
         int namsinh = sc.nextInt();
-        int age=2024-namsinh;
+        int age = java.time.Year.now().getValue() - namsinh;
         System.out.println("Tuoi cua nguoi do la: " + age);
     }
 }
