@@ -1,4 +1,4 @@
-package ss4_condition;
+package d2_homework.number_english;
 
 import java.util.Scanner;
 

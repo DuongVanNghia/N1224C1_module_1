@@ -1,4 +1,4 @@
-package ss5_loop;
+package d2_homework;
 
 import java.util.Scanner;
 
