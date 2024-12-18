@@ -10,6 +10,9 @@ public class CommonFactorAndCommonMultiple {
         System.out.println("nhap b: ");
         int b = sc.nextInt();
         int Fator = 1;
+        if(a>b){
+
+        }
         for (int i = a; i >= 1; i--) {
             if (b % i == 0 && a % i == 0) {
                 Fator = i;
